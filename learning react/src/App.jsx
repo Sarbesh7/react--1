@@ -4,10 +4,10 @@ import Card from './components/card.jsx'
 function App() {
   return (
   <>
-  <Card />
-  <Card />
-  <Card />
-  <Card />
+  <Card user='John Doe' />
+  <Card user='Jane Smith' />
+  <Card user='Bob Johnson' />
+  <Card user='Alice Williams' />
   </>  )
 }
 
